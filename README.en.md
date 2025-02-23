@@ -1,36 +1,75 @@
 # license-website
 
-#### Description
+## Description
+
 license-server 许可证（授权码）服务器项目的官方网站
 
-#### Software Architecture
-Software architecture description
+## Setup
 
-#### Installation
+Make sure to install the dependencies:
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+```bash
+# npm
+npm install
 
-#### Instructions
+# pnpm
+pnpm install
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+# yarn
+yarn install
 
-#### Contribution
+# bun
+bun install
+```
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+## Development Server
 
+Start the development server on `http://localhost:3000`:
 
-#### Gitee Feature
+```bash
+# npm
+npm run dev
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+# pnpm
+pnpm run dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm run build
+
+# yarn
+yarn build
+
+# bun
+bun run build
+```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm run preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
