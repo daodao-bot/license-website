@@ -30,6 +30,7 @@ stages:
           - pnpm config set registry https://registry.npmmirror.com
           # - pnpm install -frozen-lockfile
           - rm -rf pnpm-lock.yaml
+          - pnpm install -g node-gyp
           - pnpm install
           - pnpm run crack
           - pnpm run build
